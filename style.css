@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;  
+}
+.main-con{
+    width: 60%;
+    height: auto;
+    background-color: rgb(19, 61, 19);
+}
+.text{
+    font-size: 20px;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    padding: 60px 50px 15px 60px;
+    border-bottom: white solid 1px;
+    margin: 0 30px;    
+} 
+
+.text-2{
+    font-size: 100px;
+    color: white;
+    border-bottom: white solid 1px;
+    margin: 0 30px;
+}
+.house{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.text-3{
+    font-size: 20px;
+    color: white;
+    padding: 60px 50px 15px 60px;
+}
+.text-3 img{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.text-4 {
+    width: 40%;
+    height: 480px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.text-4 h6{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+    padding-left: 100px;
+
+}
+.text-4 img{
+    width: 280px;
+    height: 205px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+}
+.house-2{
+    width: 40%;
+    height: auto;  
+}
+.hou-img img{
+    width: 609px;
+    height: 550px;
+    margin-bottom: 40px;
+}
+.text-5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-5 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+}
+.btn button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+@media (max-width:768px){
+    .main-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .main-con{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .house-2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text-2{
+        align-items: center;
+    }
+
+    .text-2 h1 {
+        font-size: 75px;        
+    }
+    .text-3{
+        width: 100%;
+        height: auto;
+    }
+    .house-2{
+        width: 100%;
+        height: auto;
+    }
+    .hou-img img{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .btn{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
